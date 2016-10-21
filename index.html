@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./lib/hbp-collaboratory-theme.css">
+<title>Hello World</title>
+
+<header>
+  <h1>My First Collaboratory Application</h1>
+  <p><button href="#" class="btn btn-primary" hbp-login>Login with HBP</button></p>
+</header>
+
+<div id="hbp-data" style="display: none;">
+  <article>
+    <h3>User profile:</h3>
+    <p class="user-displayname"></p>
+    <p class="user-email"></p>
+  </article>
+  <article>
+    <h2>Current Collab info:</h2>
+    <h3 class="collab-title"></h3>
+    <p class="collab-content"></p>
+    <pre class="data-source" style="display: none;"></pre>
+  </article>
+</div>
+
+<script src="./lib/jquery-2.1.4.min.js" charset="utf-8"></script>
+<script src="./lib/hello.min.js" charset="utf-8"></script>
+<script src="./lib/hbp.hello.js" charset="utf-8"></script>
+<script src="./app.js" charset="utf-8"></script>
