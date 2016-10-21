@@ -39,7 +39,8 @@ For testing purpose ONLY, you can run a local https server as follows:
 `$ . ./runserver`
 
 During the first launch, it will generate a local https certificate. Before going to the next step, ensure your computer trust your self-signed certificate; otherwise the webpage will not be display.
-Your page will be available at the URL: https://localhost:4443/
+
+Your page will be available at the URL: [https://localhost:4443/](https://localhost:4443/)
 
 ### Register the application in the Collaboratory
 To make your application accessible in the Collaboratory, you need to be able to add it to a Collab navigation. To do so, it is necessary to register your application using the Apps Manager page in the How to develop apps Collab.
